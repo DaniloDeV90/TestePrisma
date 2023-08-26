@@ -12,10 +12,7 @@
         "src": "(.*)",
         "dest": "src/server.ts"
         }
-    ],
-    "scripts": {
-        "postinstall": "prisma generate",
-        "build": "prisma generate && <actual-build-command>"
-      }
+    ]
+ 
     
 }
