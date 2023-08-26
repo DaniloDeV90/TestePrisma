@@ -14,7 +14,8 @@
         }
     ],
     "scripts": {
-        "postinstall": "prisma generate"
-      },
-      "build": "prisma generate && <actual-build-command>"
+        "postinstall": "prisma generate",
+        "build": "prisma generate && <actual-build-command>"
+      }
+    
 }
